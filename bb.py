@@ -253,10 +253,10 @@ def send_report_to_group(db, c, message, transaction_party, transaction_amount, 
 
         # 创建按钮
         markup = types.InlineKeyboardMarkup(row_width=2)
-        btn1 = types.InlineKeyboardButton("按钮1", callback_data='btn1')
-        btn2 = types.InlineKeyboardButton("按钮2", callback_data='btn2')
-        btn3 = types.InlineKeyboardButton("按钮3", callback_data='btn3')
-        btn4 = types.InlineKeyboardButton("按钮4", callback_data='btn4')
+        btn1 = types.InlineKeyboardButton("福利来供需", url='https://t.me/FLLG8')
+        btn2 = types.InlineKeyboardButton("福利来担保", url='https://t.me/fllww')
+        btn3 = types.InlineKeyboardButton("福利来公群", url='https://t.me/FLLG1')
+        btn4 = types.InlineKeyboardButton("福利来导航", url='https://t.me/FLLDH')
         markup.add(btn1, btn2, btn3, btn4)
 
         # 发送报备成功消息和按钮到群组
